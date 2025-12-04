@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    
     <title>Camilo Torres</title>
   </head>
   <body>
@@ -81,7 +86,7 @@ l410 214 0 122 0 121 -250 130 c-137 72 -323 168 -413 215 l-163 85 3 -132z"
       </div>
     </header>
 
-    <main>
+    <main class="container">
       <section id="hero">
         <header>
           <h1>Camilo Torres</h1>
@@ -227,7 +232,7 @@ l410 214 0 122 0 121 -250 130 c-137 72 -323 168 -413 215 l-163 85 3 -132z"
                 loading="lazy"
               />
             </a>
-            
+
             <header class="project-header">
               <h3>Pomodoro Timer</h3>
               <div class="project-actions">
@@ -282,9 +287,13 @@ l410 214 0 122 0 121 -250 130 c-137 72 -323 168 -413 215 l-163 85 3 -132z"
       </section>
     </main>
 
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
       <div class="heart-counter">
-        <button type="button" aria-label="Like this portfolio">
+        <button
+          class="heart-btn"
+          type="button"
+          aria-label="Like this portfolio"
+        >
           <svg
             aria-hidden="true"
             focusable="false"
@@ -299,7 +308,7 @@ l410 214 0 122 0 121 -250 130 c-137 72 -323 168 -413 215 l-163 85 3 -132z"
           </svg>
         </button>
       </div>
-      <p>Handcrafted by me ©2025 Camilo Torres</p>
+      <p><small>by me &copy; 2025 Camilo Torres</small></p>
     </footer>
   </body>
 </html>
