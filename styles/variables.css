@@ -8,6 +8,13 @@
 
   /*Icon Colors*/
   --icon-color: #1e1e1e;
+  --color-accent: #facc15;
+
+  /* hover social colors */
+  --clr-linkedin: #0a66c2;
+  --clr-github: #1f2328;
+  --clr-email:#ea4335;
+
 
   /* Font Family*/
   --font-family-base: "Inter", sans-serif;
@@ -38,7 +45,6 @@
   --icon-sm: 16px;
 
   /*Spacing (Mobile First) */
-  --space-2xl: 64px;
   --space-xl: 24px;
   --space-lg: 20px;
   --space-md: 16px;
