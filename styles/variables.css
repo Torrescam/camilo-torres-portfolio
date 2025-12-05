@@ -8,59 +8,59 @@
 
   /*Icon Colors*/
   --icon-color: #1e1e1e;
+
+  /* accent */
   --color-accent: #facc15;
 
   /* hover social colors */
   --clr-linkedin: #0a66c2;
   --clr-github: #1f2328;
-  --clr-email:#ea4335;
-
+  --clr-email: #ea4335;
 
   /* Font Family*/
   --font-family-base: "Inter", sans-serif;
 
   /* Mobile font sizes */
-  --fs-h1: 2rem;
-  --fs-h2: 1.5rem;
-  --fs-h3: 1.25rem;
-  --fs-body: 0.9375rem;
-  --fs-small: 0.875rem;
+  --fs-h1-32px: 2rem;
+  --fs-h2-24px: 1.5rem;
+  --fs-h3-20px: 1.25rem;
+  --fs-body-16px: 1rem;
+  --fs-small-12px: 0.75rem;
 
   /* Font weights */
-  --fw-regular: 400;
-  --fw-medium: 500;
-  --fw-semibold: 600;
-  --fw-bold: 700;
+  --fw-regular-400: 400;
+  --fw-medium-500: 500;
+  --fw-semibold-600: 600;
+  --fw-bold-700: 700;
 
   /* Mobile line-heights */
-  --lh-h1: 1.1;
-  --lh-h2: 1.2;
-  --lh-h3: 1.3;
-  --lh-body: 1.5;
-  --lh-small: 1.4;
+  --lh-h1-1-1: 1.1;
+  --lh-h2-1-2: 1.2;
+  --lh-h3-1-3: 1.3;
+  --lh-body-1-5: 1.5;
+  --lh-small-1-4: 1.4;
 
   /* Icon Sizes (Mobile First)*/
-  --icon-lg: 24px;
-  --icon-md: 20px;
-  --icon-sm: 16px;
+  --icon-lg-24px: 24px;
+  --icon-md-20px: 20px;
+  --icon-sm-16px: 16px;
 
   /*Spacing (Mobile First) */
-  --space-xl: 24px;
-  --space-lg: 20px;
-  --space-md: 16px;
-  --space-sm: 12px;
-  --space-xs: 8px;
+  --space-xl-24px: 24px;
+  --space-lg-20px: 20px;
+  --space-md-16px: 16px;
+  --space-sm-12px: 12px;
+  --space-xs-8px: 8px;
+  --space-xxs-4px:4px;
 }
 
 /* desktop */
 @media (min-width: 768px) {
   :root {
-    /* mobile font size */
-    --fs-h1: 2.5rem;
-    --fs-h2: 2rem;
-    --fs-h3: 1.5rem;
-    --fs-body: 1rem;
-
-    /* mobile Icon Size */
+    /* desktop font size */
+    --fs-h1-40px: 2.5rem;
+    --fs-h2-32px: 2rem;
+    --fs-h3-24px: 1.5rem;
+    --fs-body-16px: 1rem;
   }
 }
