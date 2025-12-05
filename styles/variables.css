@@ -53,6 +53,10 @@
   --space-sm-12px: 12px;
   --space-xs-8px: 8px;
   --space-xxs-4px:4px;
+
+  /* border-radius */
+  --radius-md-8px: 8px;
+  --radius-ms-4px: 4px;
 }
 
 /* desktop */
