@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
 
-  margin-bottom: var(--space-xl-24px);
+  margin-bottom: var(--space-2xl-32px);
   gap: var(--space-xs-8px);
 }
 
@@ -96,7 +96,7 @@
 }
 
 #about-me {
-  margin-bottom: var(--space-xl-24px);
+  margin-bottom: var(--space-2xl-32px);
 }
 
 #about-me h2 {
@@ -106,4 +106,49 @@
 
 #about-me p {
   padding-left: var(--space-xs-8px);
+}
+
+#tech {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--space-2xl-32px);
+}
+
+#tech h2 {
+  /* border: 1px solid red; */
+  margin-bottom: var(--space-sm-12px);
+}
+
+#tech .tech-badges {
+  /* border: 1px solid red; */
+  display: flex;
+  padding-left: var(--space-xs-8px);
+  padding-right: var(--space-xs-8px);
+  gap: var(--space-xs-8px);
+}
+
+.tech-badges li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+  padding: var(--space-xxs-4px);
+  gap: var(--space-xs-8px);
+}
+
+.tech-badges svg {
+  /* border: 1px solid red; */
+  width: var(--space-md-16px);
+  height: auto;
+  flex-shrink: 0;
+}
+
+#tech p {
+  /* border: 1px solid red; */
+  font-size: var(--fs-small-12px);
+  text-align: center;
 }
