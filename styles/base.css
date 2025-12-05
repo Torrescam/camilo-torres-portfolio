@@ -1,9 +1,6 @@
 body {
   font-family: var(--font-family-base);
   background-color: var(--bg-main);
-  padding-top: var(--space-2xl);
-  padding-left: var(--space-xl);
-  padding-right: var(--space-xl);
 }
 
 h1,
@@ -34,4 +31,5 @@ p {
   color: var(--text-secondary);
   font-weight: var(--fw-regular);
   line-height: var(--lh-body);
+  font-size: var(--fs-body);
 }
