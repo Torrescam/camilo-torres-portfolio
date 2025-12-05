@@ -1,2 +1,93 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: var(--space-xl);
+  margin-right: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.header-content .header-logo {
+  width: 72px;
+  height: auto;
+  color: var(--text-primary);
+}
+
+.header-content .theme-switch__icon{
+  width: var(--icon-md);
+  height: auto;
+}
+
+.theme-switch__icon {
+  color: var(--color-accent);
+}
+
+.header-content .theme-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--space-xl);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: var(--space-xl);
+  margin-right: var(--space-xl);
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-md);
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  gap: var(--space-xxs)
+}
+
+#hero .hero-content {
+  text-align: center;
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  
+}
+
+#hero h2 {
+  color: var(--text-secondary);
+  font-weight: var(--fw-regular);
+}
+
+#hero p {
+  text-align: center;
+}
+
+.hero-socials ul {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-xs);
+  margin-top: var(--space-sm);
+  gap: var(--space-xs);
+}
+
+.hero-socials svg {
+  width: var(--icon-lg);
+  height: var(--icon-lg);
+}
+
+.hero-socials li:nth-child(1) a:hover {
+  color: var(--clr-linkedin);
+}
+
+.hero-socials li:nth-child(2) a:hover {
+  color: var(--clr-github);
+}
+
+.hero-socials li:nth-child(3) a:hover {
+  color: var(--clr-email);
+}
