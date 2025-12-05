@@ -171,11 +171,6 @@
   margin-bottom: var(--space-sm-12px);
 }
 
-#projects .projects-content {
-  /* border: 1px solid red; */
-
-}
-
 #projects .project-card {
   background-color: #f8f9fa;
   /* border: 1px solid red; */
