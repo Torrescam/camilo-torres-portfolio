@@ -20,9 +20,7 @@
   height: auto;
 }
 
-.theme-switch__icon {
-  color: var(--color-accent);
-}
+
 
 .header-content .theme-switch {
   display: flex;
@@ -162,7 +160,6 @@
 }
 
 #projects .project-card {
-  background-color: #f8f9fa;
   /* border: 1px solid red; */
   width: 100%;
   aspect-ratio: 16/9;
@@ -181,11 +178,12 @@
 #projects .project-actions {
   /* border: 1px solid red; */
   display: flex;
-  gap: var(--space-xs);
+  gap: var(--space-xxs);
 }
 
 #projects .project-actions svg {
-  width: var(--space-md);
+  max-width: var(--icon-sm);
+  min-height: var(--icon-sm);
 }
 
 #footer {
@@ -233,5 +231,10 @@
     align-items: flex-end;
   }
 
+
+#projects .project-actions svg {
+  max-width: var(--icon-md);
+  min-height: var(--icon-md);
+}
   
 }

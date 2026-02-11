@@ -1,13 +1,20 @@
 :root {
+  /*DARK COLORS*/
+
   /*Background*/
-  --bg-main: #ffffff;
+  --bg-main: #0f172a;
+  --bg-surface: #1e293b;
 
   /*Text Colors */
-  --text-primary: #1e1e1e;
-  --text-secondary: #4a4a4a;
+  --text-primary: #e2e8f0; /*titles*/
+  --text-secondary: #94a3b8; /*paragaph*/
+
+  /*Borders*/
+  --border-color: #334155;
 
   /*Icon Colors*/
   --icon-color: #1e1e1e;
+  --icon-color: #a81111;
 
   /* accent */
   --color-accent: #facc15;
@@ -59,6 +66,17 @@
   --radius-ms: 4px;
 }
 
+/* Light override*/
+[data-theme="light"] {
+  --bg-main: #f8fafc;
+  --bg-surface: #ffffff;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+
+  --border-color: #e2e8f0;
+}
+
 /* desktop */
 @media (min-width: 768px) {
   :root {
@@ -68,6 +86,9 @@
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
 
- 
+    /* Icon Sizes*/
+    --icon-lg: 32px;
   }
 }
+
+

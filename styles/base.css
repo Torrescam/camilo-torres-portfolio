@@ -1,6 +1,7 @@
 body {
   font-family: var(--font-family-base);
   background-color: var(--bg-main);
+  color: var(--text-secondary);
 }
 
 h1,
@@ -32,4 +33,17 @@ p {
   font-weight: var(--fw-regular-400);
   line-height: var(--lh-body);
   font-size: var(--fs-body);
+}
+
+.project-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+}
+
+.theme-switch__icon {
+  color: var(--text-primary);
+}
+
+.heart-btn {
+  color: var(--text-primary);
 }
