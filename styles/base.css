@@ -11,25 +11,25 @@ h3 {
 
 h1 {
   font-weight: var(--fw-bold-700);
-  font-size: var(--fs-h1-32px);
-  line-height: var(--lh-h1-32px);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
 }
 
 h2 {
   font-weight: var(--fw-semibold-600);
-  font-size: var(--fs-h2-24px);
-  line-height: var(--lh-h2-24px);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
 }
 
 h3 {
   font-weight: var(--fw-medium-500);
-  font-size: var(--fs-h3-20px);
-  line-height: var(--lh-h3-20px);
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
 }
 
 p {
   color: var(--text-secondary);
   font-weight: var(--fw-regular-400);
-  line-height: var(--lh-body-1-5);
-  font-size: var(--fs-body-16px);
+  line-height: var(--lh-body);
+  font-size: var(--fs-body);
 }
